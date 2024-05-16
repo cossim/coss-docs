@@ -1,4 +1,31 @@
-## 启动并运行
+## 安装 {#installation}
+
+### 前置准备 {#prerequisites}
+
+- [Node.js](https://nodejs.org/) 18 及以上版本。
+- 通过命令行界面 (CLI) 访问 VitePress 的终端。
+- 支持 [Markdown](https://en.wikipedia.org/wiki/Markdown) 语法的编辑器。
+  - 推荐 [VSCode](https://code.visualstudio.com/) 及其[官方 Vue 扩展](https://marketplace.visualstudio.com/items?itemName=Vue.volar)。
+
+VitePress 可以单独使用，也可以安装到现有项目中。在这两种情况下，都可以使用以下方式安装它：
+
+
+```sh [npm]
+$ npm add -D vitepress
+```
+
+```sh [pnpm]
+$ pnpm add -D vitepress
+```
+
+```sh [yarn]
+$ yarn add -D vitepress
+```
+
+```sh [bun]
+$ bun add -D vitepress
+```
+
 
 该工具还应该将以下 npm 脚本注入到 `package.json` 中：
 
