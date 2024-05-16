@@ -1,6 +1,6 @@
-## 安装 {#installation}
+## 安装
 
-### 前置准备 {#prerequisites}
+### 前置准备
 
 - [Node.js](https://nodejs.org/) 18 及以上版本。
 - 通过命令行界面 (CLI) 访问 VitePress 的终端。
@@ -26,6 +26,7 @@ $ yarn add -D vitepress
 $ bun add -D vitepress
 ```
 
+## 启动并运行
 
 该工具还应该将以下 npm 脚本注入到 `package.json` 中：
 
